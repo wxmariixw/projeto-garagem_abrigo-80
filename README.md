@@ -159,68 +159,68 @@ onde veio o cálculo de tempo (ciclos de clock por instrução). -->
 ### Núcleo do computador
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 1 | Z80A (Z8400A, NMOS, 4 MHz, DIP-40) | CPU | Multicomercial | aguardando |
-| 1 | AT28C256-20PI (EEPROM 32 KB, DIP-28) | ROM: bootloader e SO | Mercado Livre | aguardando |
-| 1 | 62256-70 (SRAM 32 KB, DIP-28) | RAM | Mercado Livre | aguardando |
+| 1 | Z80A (Z8400A, NMOS, 4 MHz, DIP-40) | CPU | Multicomercial | em mãos |
+| 1 | AT28C256-20PI (EEPROM 32 KB, DIP-28) | ROM: bootloader e SO | Mercado Livre | em mãos |
+| 1 | 62256-70 (SRAM 32 KB, DIP-28) | RAM | Mercado Livre | em mãos |
 
 ### Lógica e decodificação
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 1 | 74LS32 [conferir: LS ou HCT] (4 portas OU) | /CE das memórias e pulsos das portas | Multicomercial | a confirmar |
-| 1 | 74LS02 [conferir: LS ou HCT] (4 portas NOR) | inversor do A15 e sinais do ADC | Multicomercial | a confirmar |
-| 1 | 74LS138 [conferir: LS ou HCT] (decodificador 3→8) | decodificação de E/S | Multicomercial | a confirmar |
-| 1 | 74HCT574 (latch de 8 bits) | porta de saída | Multicomercial | aguardando |
-| 1 | 74HCT244 (buffer three-state) | porta de entrada | Santa Ifigênia | em falta |
+| 1 | 74LS32 [conferir: LS ou HCT] (4 portas OU) | /CE das memórias e pulsos das portas | Multicomercial | em mãos |
+| 1 | 74LS02 [conferir: LS ou HCT] (4 portas NOR) | inversor do A15 e sinais do ADC | Multicomercial | em mãos |
+| 1 | 74LS138 [conferir: LS ou HCT] (decodificador 3→8) | decodificação de E/S | Multicomercial | em mãos |
+| 1 | 74HCT574 (latch de 8 bits) | porta de saída | Multicomercial | em mãos |
+| 1 | 74HCT244 (buffer three-state) | porta de entrada | - | a comprar |
 
 ### Clock, reset e alimentação
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 1 | Cristal 3,579545 MHz (HC-49/S) | base do clock | Multicomercial | a confirmar |
-| 1 | 74HC04 (6 inversores) | oscilador do cristal | Multicomercial | a confirmar |
-| 1 | 74HCT74 (2 flip-flops) | divisor ÷2 (CPU) e ÷4 (ADC) | Multicomercial | aguardando |
-| 1 | Resistor 1 MΩ | realimentação do oscilador | kit de resistores | a confirmar |
-| 2 | Capacitor cerâmico 22 pF | carga do cristal | kit de capacitores | a confirmar |
-| 1 | Capacitor eletrolítico 4,7 µF | circuito de reset (RC) | kit de capacitores | a confirmar |
-| 1 | Chave táctil | botão de reset | Multicomercial / Mercado Livre | aguardando |
-| 2 | Módulo fonte MB102 | 5 V nas protoboards | Mercado Livre | aguardando |
-| 1 | Cabo USB macho-macho | alimentar o MB102 pelo notebook | Mercado Livre | aguardando |
-| ~12 | Capacitor cerâmico 100 nF | desacoplamento, um por chip | kit de capacitores | a confirmar |
+| 1 | Cristal 3,579545 MHz (HC-49/S) | base do clock | Multicomercial | em mãos |
+| 1 | 74HC04 (6 inversores) | oscilador do cristal | Multicomercial | em mãos |
+| 1 | 74HCT74 (2 flip-flops) | divisor ÷2 (CPU) e ÷4 (ADC) | Multicomercial | em mãos |
+| 1 | Resistor 1 MΩ | realimentação do oscilador | kit de resistores | em mãos |
+| 2 | Capacitor cerâmico 22 pF | carga do cristal | kit de capacitores | em mãos |
+| 1 | Capacitor eletrolítico 4,7 µF | circuito de reset (RC) | kit de capacitores | em mãos |
+| 1 | Chave táctil | botão de reset | Multicomercial / Mercado Livre | em mãos |
+| 2 | Módulo fonte MB102 | 5 V nas protoboards | Mercado Livre | em mãos |
+| 1 | Cabo USB macho-macho | alimentar o MB102 pelo notebook | Mercado Livre | em mãos |
+| ~12 | Capacitor cerâmico 100 nF | desacoplamento, um por chip | kit de capacitores | em mãos |
 
 ### Entrada, saída e sensores
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 2 | ADC0809CCN (DIP-28) | conversor A/D (1 reserva) | Multicomercial | aguardando |
-| 1 | Módulo DHT11 (GC-289) | temperatura e umidade | Santa Ifigênia | em falta |
-| 1 | Transistor BC548B | interface de 1 fio do DHT11 | kit / Santa Ifigênia | a confirmar |
-| 1 | LDR LG5516 | sensor de luz | Multicomercial | aguardando |
-| 1 | Adaptador USB-serial PL2303 | terminal no notebook | Mercado Livre | aguardando |
-| 3 | Resistor 10 kΩ | divisor do TX (2 em série = 20 kΩ) | kit de resistores | a confirmar |
-| 4+ | LED + resistor 330 Ω | LEDs de estado | kit | a confirmar |
-| 1 | Chave táctil | botão de uso geral | Multicomercial / Mercado Livre | aguardando |
-| 4 | Resistor 10 kΩ | pull-up de /WAIT, /INT, /NMI, /BUSRQ | kit de resistores | a confirmar |
+| 2 | ADC0809CCN (DIP-28) | conversor A/D (1 reserva) | Multicomercial | em mãos |
+| 1 | Módulo DHT11 (GC-289) | temperatura e umidade | Santa Ifigênia | aguardando |
+| 1 | Transistor BC548B | interface de 1 fio do DHT11 | kit / Santa Ifigênia | em mãos |
+| 1 | LDR LG5516 | sensor de luz | Multicomercial | em mãos |
+| 1 | Adaptador USB-serial PL2303 | terminal no notebook | Mercado Livre | em mãos |
+| 3 | Resistor 10 kΩ | divisor do TX (2 em série = 20 kΩ) | kit de resistores | em mãos |
+| 4+ | LED + resistor 330 Ω | LEDs de estado | kit | em mãos |
+| 1 | Chave táctil | botão de uso geral | Multicomercial / Mercado Livre | em mãos |
+| 4 | Resistor 10 kΩ | pull-up de /WAIT, /INT, /NMI, /BUSRQ | kit de resistores | em mãos |
 
 ### Gravador de ROM (ferramenta de desenvolvimento)
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 1 | Arduino Nano V3.0 (CH340) + cabo | controla a gravação | Multicomercial | aguardando |
-| 2 | 74HC595 (registrador de deslocamento) | gera os 15 bits de endereço | Multicomercial | a confirmar |
+| 1 | Arduino Nano V3.0 (CH340) + cabo | controla a gravação | Multicomercial | em mãos |
+| 2 | 74HC595 (registrador de deslocamento) | gera os 15 bits de endereço | Multicomercial | em mãos |
 | 1 | Soquete ZIF 28 pinos (ou soquete DIP comum) | tirar e pôr a ROM sem entortar os pinos | — | a comprar |
 
 ### Montagem
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 4 | Protoboard | montagem do protótipo | Multicomercial | aguardando |
-| 1 | Kit de jumpers em U (140 peças) | ligações curtas na protoboard | outro kit / Santa Ifigênia | em falta |
-| 1 | Kit de jumpers macho-macho | ligações longas | Multicomercial | aguardando |
-| 1 | Kit de resistores | diversos | Multicomercial | aguardando |
-| 1 | Kit de capacitores | diversos | Multicomercial | aguardando |
+| 4 | Protoboard | montagem do protótipo | Multicomercial | em mãos |
+| 1 | 2 metros de cabo de rede | ligações curtas na protoboard | Mell Eletrônicos | em mãos |
+| 1 | Kit de jumpers macho-macho | ligações longas | Multicomercial | em mãos |
+| 1 | Kit de resistores | diversos | Multicomercial | em mãos |
+| 1 | Kit de capacitores | diversos | Multicomercial | em mãos |
 
 ### Ferramentas
 | Qtd | Item | Para que serve | Onde | Situação |
 |---|---|---|---|---|
-| 1 | Multímetro DT-830B (+ bateria 9 V) | medir tensões e continuidade | Multicomercial | aguardando |
-| 1 | Ferro de solda 127 V | montagem da PCB | Mercado Livre | aguardando |
-| 1 | Estanho | solda | Multicomercial | aguardando |
+| 1 | Multímetro DT-830B (+ bateria 9 V) | medir tensões e continuidade | Multicomercial | em mãos |
+| 1 | Ferro de solda 127 V | montagem da PCB | Mercado Livre | em mãos |
+| 1 | Estanho | solda | Multicomercial | em mãos |
 | 1 | Óculos de proteção | segurança na solda | próprio | em mãos |
 | 1 | Alicate de corte | cortar terminais e fios | próprio | em mãos |
 
@@ -395,7 +395,11 @@ data | decisão | alternativas | motivo. Isto vira a seção de projeto do artig
 ## Problemas conhecidos e riscos
 <!-- O que falhou, como foi resolvido, o que ainda não funciona.
 Inclua os riscos da proposta e o plano B de cada um. -->
-- [ ] [problema] → [solução ou plano B]
+
+| Problema | Solução | 
+|--- | --- |
+| Falta de conhecimento na área de elétrica, eletrônica e hardware | Foi montado um cronograma de estudos, com apoio da inteligẽncia artificial, que avance junto com a construção do projeto, utilizando principalmente aulas da UNIVESP e livros didáticos| 
+| Dificuldade em encontrar um kit de jumper U | Foi comprado 2 metros de cabo de rede e utilizado os fios rigidos internos| 
 
 ---
 
@@ -413,6 +417,9 @@ O trabalho foi totalmente apoiado por inteligência artificial, utilizando o Cla
 - RC2014 (referência de projeto).
 - Datasheets: [listar cada um com link em docs/datasheets.md]
 - [Bibliotecas ou códigos de terceiros usados, se houver. Bootloader e SO são próprios.]
+
+### Aulas e materiais de estudo
+[Circuitos Elétricos - Curso de Engenharia da Computação](https://www.youtube.com/playlist?list=PLxI8Can9yAHd1UnLqOLBQv7KbDq4Zsbax)
 
 ## Licença
 [ex.: MIT para o código, CC BY 4.0 para documentação e esquemáticos]
