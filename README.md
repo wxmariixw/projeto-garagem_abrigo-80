@@ -418,8 +418,14 @@ O trabalho foi totalmente apoiado por inteligência artificial, utilizando o Cla
 - Datasheets: [listar cada um com link em docs/datasheets.md]
 - [Bibliotecas ou códigos de terceiros usados, se houver. Bootloader e SO são próprios.]
 
-### Aulas e materiais de estudo
-[Circuitos Elétricos - Curso de Engenharia da Computação](https://www.youtube.com/playlist?list=PLxI8Can9yAHd1UnLqOLBQv7KbDq4Zsbax)
+### Fontes de aulas e materiais de estudo
+- [Circuitos Elétricos - Curso de Engenharia da Computação | UNIVESP](https://www.youtube.com/playlist?list=PLxI8Can9yAHd1UnLqOLBQv7KbDq4Zsbax)
+- BRAGA, Newton C. **Curso de eletrônica**: eletrônica básica. São Paulo: Instituto Newton C. Braga, 2012. v. 1.
+- [Fisica III | UNIVESP](https://www.youtube.com/playlist?list=PLxI8Can9yAHdj5jB2sFXlr0l6OHBxtxeJ)
+- FUNDAMENTOS da eletricidade. São Paulo: SENAI-SP Editora, 2015. E-book. ISBN 978-85-8393-229-1.
+- BAUER, Wolfgang; WESTFALL, Gary D.; DIAS, Helio. **Física para universitários**: eletricidade e magnetismo. Porto Alegre: AMGH, 2012. 386 p. ISBN 978-85-8055-125-9.
+- JEWETT JR., John W.; SERWAY, Raymond A. **Física para cientistas e engenheiros**: eletricidade e magnetismo. 2. ed. São Paulo: Cengage Learning, 2017. v. 3. 416 p. ISBN 978-85-221-2710-8.
+
 
 ## Licença
 [ex.: MIT para o código, CC BY 4.0 para documentação e esquemáticos]
