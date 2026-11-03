@@ -25,10 +25,10 @@ COMO USAR
 ## O que estudei
 <!-- Sempre com a fonte: vídeo, capítulo, página do datasheet, link.
      Essas fontes viram as referências do artigo. -->
-| Tema | Fonte | O que entendi |
-|---|---|---|
-| | | |
-
+**Tema:** Grandezas elétricas | Corrente, resistor, capacitor...
+**Fontes:**
+- [Aula 01 & 02 do curso de circuitos elétricos da UNIVESP](https://www.youtube.com/watch?v=9T11Fph2pB8&list=PLxI8Can9yAHd1UnLqOLBQv7KbDq4Zsbax)
+- BRAGA, Newton C. **Curso de eletrônica**: eletrônica básica. São Paulo: Instituto Newton C. Braga, 2012. v. 1.
 ## Avanços
 <!-- Algo passou a funcionar? Atualize também a tabela de Testes do README. -->
 -
