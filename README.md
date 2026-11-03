@@ -342,20 +342,19 @@ como carregar. Um print do terminal aqui ajuda muito. -->
 ---
 
 ## Cronograma de estudos
-<!-- O que precisa saber ANTES de cada etapa de montagem. Marque [x] ao concluir
-e anote a fonte usada (vídeo, capítulo, datasheet). -->
+<!-- O que precisa saber ANTES de cada etapa de montagem. O plano dia a dia
+está no cronograma de estudos completo; aqui fica o resumo por semana. -->
 
-| Período | Tema | Para quê | Andamento |
-|---|---|---|---|
-| Semana 01 - 30/10–05/11 | Eletrônica básica: tensão, corrente, resistor, capacitor, uso do multímetro | medir a fonte com segurança | Em andamento |
-| Semana 02 - 30/10–05/11 | SAP-1 (Malvino cap. 10 + videoaula do Blau Araujo) | entender busca e execução | A fazer |
-| Semana 03 - 06/11–13/11 | Lógica digital: portas, níveis TTL/CMOS, three-state, decodificadores | decodificação de endereços | A fazer |
-| Semana 04 - 06/11–13/11 | Arquitetura do Z80: pinos, registradores, ciclo de máquina, reset | ligar a CPU | A fazer |
-| Semana 05 - 06/11–13/11 | Assembly Z80 no emulador | escrever o bootloader | A fazer |
-| Semana 06 - 14/11–22/11 | Datasheets: AT28C256, 62256, 74HC595 | gravador e memórias | A fazer |
-| Semana 07 - 23/11–29/11 | Datasheets: 74LS138, 74HCT574, 74HCT244; serial 8N1 e temporização | E/S e serial | A fazer |
-| Semana 08 - 30/11–06/12 | ADC0809 e protocolo do DHT11 | sensores | A fazer |
-| Semana 09 - 30/11–06/12 | Intel HEX, pilha, CALL/RET, RST | sistema operacional | A fazer |
+| Semana | Período | Tema | Para quê | Andamento |
+|---|---|---|---|---|
+| 1 | 30/10–05/11 | Eletricidade básica (tensão, corrente, resistência, Lei de Ohm, capacitor, multímetro), Arduino Nano e primeiros passos em Assembly Z80 | medir a fonte com segurança; preparar o gravador e o código | Em andamento: 30/10, 31/10, 02/11 e 03/11 concluídos; 04/11 adiantado para 03/11 |
+| 2 | 06/11–13/11 | Lógica digital (portas, níveis LS/HC/HCT, flip-flop, three-state, 74LS138), pinos do Z80, pilha e CALL/RET, início do KiCad | entender os chips e ligar a CPU | A fazer |
+| 3 | 14/11–22/11 | Gravador de ROM, clock a cristal, Z80 em teste NOP, ROM, RAM e decodificação de memória | CPU executando da ROM | A fazer |
+| 4 | 23/11–29/11 | Decodificação de E/S, portas 74HCT574 e 74HCT244, serial por software 9600 8N1, bootloader | mensagem na serial ao ligar | A fazer |
+| 5 | 30/11–06/12 | Sistema operacional (monitor, Intel HEX, RST 08h), ADC0809 com LDR, DHT11 | prompt com comandos e sensores | A fazer |
+| 6 | 07/12–10/12 | Programa-vitrine (buffer de 16 leituras, média, máximo e mínimo), testes, checkpoint | vitrine rodando; checkpoint em 10/12 | A fazer |
+| 7 | 11/12–17/12 | PCB (se chegou), vídeo de reserva, ensaio da defesa, artigo | Mostra em 14/12; artigo até 17/12, 18h | A fazer |
+| PCB | 06/11–21/11 | Esquemático e layout no KiCad, em paralelo | encomenda da PCB por volta de 20/11 | A fazer |
 
 ---
 
