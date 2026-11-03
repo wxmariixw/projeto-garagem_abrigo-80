@@ -13,7 +13,7 @@ fotos da bancada e próximos passos. Uma entrada por dia, em ordem cronológica.
 👉 [Acompanhar o diário](diario/)
 
 - **Status:** em desenvolvimento
-- **Etapa atual:** Semana 01 - 
+- **Etapa atual:** Semana 01 - Eletrônica básica: tensão, corrente, resistor, capacitor, uso do multímetro
 
 
 --- 
