@@ -329,15 +329,15 @@ como carregar. Um print do terminal aqui ajuda muito. -->
 ## Testes
 <!-- Atualize o status a cada etapa e guarde a evidência em testes/. -->
 
-| # | Etapa | Critério de sucesso | Status | Evidência |
-|---|---|---|---|---|
-| 1 | Fonte | 4,75–5,25 V no multímetro | pendente | |
-| 2 | Clock | frequência medida com o Arduino Nano | pendente | |
-| 3 | CPU (NOP) | linhas de endereço contando | pendente | |
-| 4 | ROM e RAM | LED acende e teste de RAM passa | pendente | |
-| 5 | Serial | mensagem de boas-vindas e eco de teclas | pendente | |
-| 6 | Sensores | leituras mudam com o ambiente | pendente | |
-| — | Emulador | bootloader e SO rodam antes da gravação | pendente | |
+| # | Etapa | Critério de sucesso | Status |
+|---|---|---|---|
+| 1 | Fonte | 4,75–5,25 V no multímetro | Feito, evidências e relato no dia 31/10 |
+| 2 | Clock | frequência medida com o Arduino Nano | pendente |
+| 3 | CPU (NOP) | linhas de endereço contando | pendente |
+| 4 | ROM e RAM | LED acende e teste de RAM passa | pendente |
+| 5 | Serial | mensagem de boas-vindas e eco de teclas | pendente |
+| 6 | Sensores | leituras mudam com o ambiente | pendente |
+| — | Emulador | bootloader e SO rodam antes da gravação | pendente |
 
 ---
 
@@ -345,17 +345,17 @@ como carregar. Um print do terminal aqui ajuda muito. -->
 <!-- O que precisa saber ANTES de cada etapa de montagem. Marque [x] ao concluir
 e anote a fonte usada (vídeo, capítulo, datasheet). -->
 
-| Período | Tema | Para quê | Fonte | Feito |
-|---|---|---|---|---|
-| Semana 01 - 30/10–05/11 | Eletrônica básica: tensão, corrente, resistor, capacitor, uso do multímetro | medir a fonte com segurança | | [ ] |
-| Semana 02 - 30/10–05/11 | SAP-1 (Malvino cap. 10 + videoaula do Blau Araujo) | entender busca e execução | | [ ] |
-| Semana 03 - 06/11–13/11 | Lógica digital: portas, níveis TTL/CMOS, three-state, decodificadores | decodificação de endereços | | [ ] |
-| Semana 04 - 06/11–13/11 | Arquitetura do Z80: pinos, registradores, ciclo de máquina, reset | ligar a CPU | | [ ] |
-| Semana 05 - 06/11–13/11 | Assembly Z80 no emulador | escrever o bootloader | | [ ] |
-| Semana 06 - 14/11–22/11 | Datasheets: AT28C256, 62256, 74HC595 | gravador e memórias | | [ ] |
-| Semana 07 - 23/11–29/11 | Datasheets: 74LS138, 74HCT574, 74HCT244; serial 8N1 e temporização | E/S e serial | | [ ] |
-| Semana 08 - 30/11–06/12 | ADC0809 e protocolo do DHT11 | sensores | | [ ] |
-| Semana 09 - 30/11–06/12 | Intel HEX, pilha, CALL/RET, RST | sistema operacional | | [ ] |
+| Período | Tema | Para quê | Andamento |
+|---|---|---|---|
+| Semana 01 - 30/10–05/11 | Eletrônica básica: tensão, corrente, resistor, capacitor, uso do multímetro | medir a fonte com segurança | Em andamento |
+| Semana 02 - 30/10–05/11 | SAP-1 (Malvino cap. 10 + videoaula do Blau Araujo) | entender busca e execução | A fazer |
+| Semana 03 - 06/11–13/11 | Lógica digital: portas, níveis TTL/CMOS, three-state, decodificadores | decodificação de endereços | A fazer |
+| Semana 04 - 06/11–13/11 | Arquitetura do Z80: pinos, registradores, ciclo de máquina, reset | ligar a CPU | A fazer |
+| Semana 05 - 06/11–13/11 | Assembly Z80 no emulador | escrever o bootloader | A fazer |
+| Semana 06 - 14/11–22/11 | Datasheets: AT28C256, 62256, 74HC595 | gravador e memórias | A fazer |
+| Semana 07 - 23/11–29/11 | Datasheets: 74LS138, 74HCT574, 74HCT244; serial 8N1 e temporização | E/S e serial | A fazer |
+| Semana 08 - 30/11–06/12 | ADC0809 e protocolo do DHT11 | sensores | A fazer |
+| Semana 09 - 30/11–06/12 | Intel HEX, pilha, CALL/RET, RST | sistema operacional | A fazer |
 
 ---
 
@@ -400,7 +400,7 @@ Inclua os riscos da proposta e o plano B de cada um. -->
 |--- | --- |
 | Falta de conhecimento na área de elétrica, eletrônica e hardware | Foi montado um cronograma de estudos, com apoio da inteligẽncia artificial, que avance junto com a construção do projeto, utilizando principalmente aulas da UNIVESP e livros didáticos| 
 | Dificuldade em encontrar um kit de jumper U | Foi comprado 2 metros de cabo de rede e utilizado os fios rigidos internos| 
-
+| A protoboard é dividida ao meio, nas conexões positivas e negativas | Adicionar um fio rigido interligando as fileiras | 
 ---
 
 ## Uso de inteligência artificial
